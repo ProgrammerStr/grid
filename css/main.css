@@ -1,0 +1,294 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+.sized {
+  width: 100%;
+  max-height: 1200px;
+  min-width: 320px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif; }
+
+.sized .box01 {
+  width: 100%;
+  float: left;
+  box-sizing: border-box; }
+
+.sized .box02 {
+  width: calc(100% / 2);
+  float: left;
+  box-sizing: border-box; }
+
+.sized .box03 {
+  width: calc(100% / 3);
+  float: left;
+  box-sizing: border-box; }
+
+.sized .box04 {
+  width: calc(100% / 4);
+  float: left;
+  box-sizing: border-box; }
+
+.sized .box05 {
+  width: calc(100% / 5);
+  float: left;
+  box-sizing: border-box; }
+
+.sized .box06 {
+  width: calc(100% / 6);
+  float: left;
+  box-sizing: border-box; }
+
+.sized .box07 {
+  width: calc(100% / 7);
+  float: left;
+  box-sizing: border-box; }
+
+.sized .box08 {
+  width: calc(100% / 8);
+  float: left;
+  box-sizing: border-box; }
+
+.sized .boxLeft {
+  float: left;
+  box-sizing: border-box; }
+
+.sized .boxRight {
+  float: right;
+  box-sizing: border-box; }
+
+#head {
+  width: 100%;
+  float: left;
+  text-align: center;
+  background-color: #3f51b5;
+  padding: 1rem 0; }
+#head h1 {
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #FFF;
+  font-weight: 700; }
+
+#one {
+  width: 100%;
+  float: left;
+  background-color: #e8eaf6;
+  box-sizing: border-box;
+  padding: 0.5rem; }
+#one .box01 {
+  background-color: #7986cb;
+  padding: 2rem 0;
+  text-align: center; }
+#one .box01 span {
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  font-weight: 900;
+  color: #FFF;
+  letter-spacing: 1px; }
+
+#two {
+  width: 100%;
+  float: left;
+  box-sizing: border-box;
+  padding: 0.5rem;
+  background-color: #e8eaf6; }
+#two .box02 {
+  background-color: #283593;
+  text-align: center;
+  padding: 2rem 0; }
+#two .box02:nth-child(2) {
+  background-color: #1565c0; }
+#two .box02 span {
+  font-size: 1.5rem;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 900;
+  letter-spacing: 1px;
+  color: #FFF; }
+
+#three {
+  width: 100%;
+  float: left;
+  background-color: #e8eaf6;
+  box-sizing: border-box;
+  padding: 0.5rem; }
+#three .box03 {
+  background-color: #303f9f;
+  padding: 2rem 0;
+  text-align: center; }
+#three .box03:nth-child(2n + 1) {
+  background-color: #1976d2; }
+#three .box03 span {
+  font-size: 1.5rem;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 900;
+  letter-spacing: 1px;
+  color: #FFF; }
+
+#for {
+  width: 100%;
+  float: left;
+  box-sizing: border-box;
+  padding: 0.5rem;
+  background-color: #e8eaf6; }
+#for .box04 {
+  background-color: #3949ab;
+  text-align: center;
+  padding: 2rem 0; }
+#for .box04:nth-child(2n + 1) {
+  background-color: #1e88e5; }
+#for .box04 span {
+  font-size: 1.5rem;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 900;
+  letter-spacing: 1px;
+  color: #FFF; }
+
+#five {
+  width: 100%;
+  float: left;
+  box-sizing: border-box;
+  padding: 0.5rem;
+  background-color: #e8eaf6; }
+#five .box05 {
+  text-align: center;
+  padding: 2rem 0;
+  background-color: #3f51b5; }
+#five .box05:nth-child(2n + 1) {
+  background-color: #2196f3; }
+#five .box05 span {
+  font-size: 1.5rem;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 900;
+  letter-spacing: 1px;
+  color: #FFF; }
+
+#six {
+  width: 100%;
+  float: left;
+  box-sizing: border-box;
+  padding: 0.5rem;
+  background-color: #e8eaf6; }
+#six .box06 {
+  text-align: center;
+  padding: 2rem 0;
+  background-color: #5c6bc0; }
+#six .box06:nth-child(2n + 1) {
+  background-color: #42a5f5; }
+#six .box06 span {
+  font-size: 1.5rem;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 900;
+  letter-spacing: 1px;
+  color: #FFF; }
+
+#sevem {
+  width: 100%;
+  float: left;
+  box-sizing: border-box;
+  padding: 0.5rem;
+  background-color: #e8eaf6; }
+#sevem .box07 {
+  text-align: center;
+  padding: 2rem 0;
+  background-color: #7986cb; }
+#sevem .box07:nth-child(2n + 1) {
+  background-color: #64b5f6; }
+#sevem .box07 span {
+  font-size: 1.5rem;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 900;
+  letter-spacing: 1px;
+  color: #FFF; }
+
+#eith {
+  width: 100%;
+  float: left;
+  box-sizing: border-box;
+  padding: 0.5rem;
+  background-color: #e8eaf6; }
+#eith .box08 {
+  text-align: center;
+  padding: 2rem 0;
+  background-color: #673ab7; }
+#eith .box08:nth-child(2n + 1) {
+  background-color: #311b92; }
+#eith .box08 span {
+  font-size: 1.5rem;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 900;
+  letter-spacing: 1px;
+  color: #FFF; }
+
+#copy {
+  width: 100%;
+  float: left;
+  background-color: #212121; }
+#copy .box01 {
+  padding: 1rem 0; }
+#copy .box01 .boxLeft {
+  width: calc(100% / 2);
+  text-align: center;
+  border-right: 1px solid #FFF; }
+#copy .box01 .boxLeft p {
+  font-size: 1rem;
+  color: #FFF;
+  text-transform: uppercase;
+  letter-spacing: 3px; }
+#copy .box01 .boxRight {
+  width: calc(100% / 2);
+  text-align: center; }
+#copy .box01 .boxRight p {
+  font-size: 1rem;
+  color: #FFF;
+  text-transform: uppercase;
+  letter-spacing: 3px; }
+
+/*# sourceMappingURL=main.css.map */
